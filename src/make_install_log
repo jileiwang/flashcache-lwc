@@ -1,0 +1,323 @@
+Sun Aug  2 18:59:23 CST 2015
+make -C /lib/modules/3.2.0-65-generic/build M=/home/wangjilei/flashcache/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/linux-headers-3.2.0-65-generic'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/linux-headers-3.2.0-65-generic'
+install -o root -g root -m 0755 -d /lib/modules/3.2.0-65-generic/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/3.2.0-65-generic/extra/flashcache/
+depmod -a 3.2.0-65-generic
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/ocf'
+Mon Aug  3 23:32:18 CST 2015
+make -C /lib/modules/3.2.0-65-generic/build M=/home/wangjilei/flashcache/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/linux-headers-3.2.0-65-generic'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/linux-headers-3.2.0-65-generic'
+install -o root -g root -m 0755 -d /lib/modules/3.2.0-65-generic/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/3.2.0-65-generic/extra/flashcache/
+depmod -a 3.2.0-65-generic
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/flashcache/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/flashcache/myversion/src/ocf'
+Tue Aug  4 01:21:50 CST 2015
+make -C /lib/modules/2.6.32-431.17.1.el6.x86_64/build M=/root/flashcache/myversion/src modules V=0
+make: *** /lib/modules/2.6.32-431.17.1.el6.x86_64/build: No such file or directory.  Stop.
+make: *** [modules] Error 2
+==================================
+Tue Aug  4 01:34:09 CST 2015
+make -C /lib/modules/2.6.32-431.17.1.el6.x86_64/build M=/root/flashcache/myversion/src modules V=0
+make: *** /lib/modules/2.6.32-431.17.1.el6.x86_64/build: No such file or directory.  Stop.
+make: *** [modules] Error 2
+==================================
+Tue Aug  4 01:40:31 CST 2015
+make -C /lib/modules/2.6.32-431.17.1.el6.x86_64/build M=/root/flashcache/myversion/src modules V=0
+make: *** /lib/modules/2.6.32-431.17.1.el6.x86_64/build: No such file or directory.  Stop.
+make: *** [modules] Error 2
+==================================
+Tue Aug  4 01:45:31 CST 2015
+make -C /lib/modules/2.6.32-431.17.1.el6.x86_64/build M=/root/flashcache/myversion/src modules V=0
+make: *** /lib/modules/2.6.32-431.17.1.el6.x86_64/build: No such file or directory.  Stop.
+make: *** [modules] Error 2
+==================================
+2015年 08月 05日 星期三 00:42:53 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 06日 星期四 01:29:16 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 06日 星期四 01:44:05 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 09日 星期日 16:44:44 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 19日 星期三 00:46:13 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  CC [M]  /home/wangjilei/workspace/myversion/src/flashcache_main.o
+/home/wangjilei/workspace/myversion/src/flashcache_main.c: 在函数‘update_whitelist’中:
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:629: 警告：ISO C90 不允许混合使用声明和代码
+/home/wangjilei/workspace/myversion/src/flashcache_main.c: 在函数‘whitesheet_find’中:
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 错误：‘i’重声明为没有外部链接
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:672: 附注：‘i’的上一个声明在此
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 错误：只允许在 C99 模式下使用‘for’循环初始化声明
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 附注：使用 -std=c99 或 -std=gnu99 来编译您的代码
+/home/wangjilei/workspace/myversion/src/flashcache_main.c: 在函数‘flashcache_lookup’中:
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:741: 警告：ISO C90 不允许混合使用声明和代码
+make[2]: *** [/home/wangjilei/workspace/myversion/src/flashcache_main.o] 错误 1
+make[1]: *** [_module_/home/wangjilei/workspace/myversion/src] 错误 2
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+make: *** [modules] 错误 2
+==================================
+2015年 08月 19日 星期三 00:50:15 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  CC [M]  /home/wangjilei/workspace/myversion/src/flashcache_main.o
+/home/wangjilei/workspace/myversion/src/flashcache_main.c: 在函数‘whitesheet_find’中:
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 错误：‘i’重声明为没有外部链接
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:672: 附注：‘i’的上一个声明在此
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 错误：只允许在 C99 模式下使用‘for’循环初始化声明
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:675: 附注：使用 -std=c99 或 -std=gnu99 来编译您的代码
+/home/wangjilei/workspace/myversion/src/flashcache_main.c: 在函数‘flashcache_lookup’中:
+/home/wangjilei/workspace/myversion/src/flashcache_main.c:741: 警告：ISO C90 不允许混合使用声明和代码
+make[2]: *** [/home/wangjilei/workspace/myversion/src/flashcache_main.o] 错误 1
+make[1]: *** [_module_/home/wangjilei/workspace/myversion/src] 错误 2
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+make: *** [modules] 错误 2
+==================================
+2015年 08月 19日 星期三 00:54:39 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 19日 星期三 01:00:21 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 21日 星期五 23:45:14 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
+==================================
+2015年 08月 23日 星期日 00:55:33 CST
+make -C /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/build M=/home/wangjilei/workspace/myversion/src modules V=0
+make[1]: Entering directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+fatal: Not a git repository (or any of the parent directories): .git
+  Building modules, stage 2.
+  MODPOST 1 modules
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+make[1]: Leaving directory `/usr/src/kernels/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64'
+install -o root -g root -m 0755 -d /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+install -o root -g root -m 0755 flashcache.ko /lib/modules/2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64/extra/flashcache/
+depmod -a 2.6.32-504.23.4.el6.wjy0715_ubi_all.x86_64
+make -C utils all
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C utils install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/utils'
+install -d -m 755 /sbin/
+install -m 755 flashcache_create flashcache_destroy flashcache_load flashcache_setioctl get_agsize /sbin/
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/utils'
+make -C ocf install
+make[1]: Entering directory `/home/wangjilei/workspace/myversion/src/ocf'
+install -d -m 755 /usr/lib/ocf/resource.d/flashcache
+install -m 755 flashcache  /usr/lib/ocf/resource.d/flashcache
+make[1]: Leaving directory `/home/wangjilei/workspace/myversion/src/ocf'
